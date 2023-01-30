@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Smart Message Boxes</title>
+</head>
+<body>
+
+    <h1>Hello Guys</h1>
+    <p>Are you ready to start the journey...</p>
+    <h1 id="username">Hi</h1>
+    <h3>Hello Dear</h3>
+    
+    <button>Click Me</button>
+    
+    <script>
+        // window.alert("Hellow");
+        
+        // let _$USERNAME = prompt("Enter your name");
+        // alert("Hello " + _$USERNAME)
+
+        // let choice = confirm("Are you sure to do this operation...");
+        // if(choice){
+        //     location.href = "https://www.google.com";
+        // }
+        // else{
+        //     alert("Not navigated to google");
+        // }
+
+        console.log('Hello');
+        console.warn("it is a warning");
+        console.error("hey error");
+        console.info("info");
+        console.time();
+
+
+        setTimeout(function () {  // used one time when declare
+            console.log("clearing....");
+            console.clear();
+            console.log("cleared");
+        }, 2000);
+
+        // let i = 1;
+        // setInterval(function(){ // after 3.5s it auto call this function
+        //     console.log("interval - " + i);
+        //     i++;
+        // }, 3500);
+
+        let student = {
+            name: "Nayem",
+            phone: 12345643
+        }
+        // console.log(student);
+        console.table(student);
+    </script>
+
+       
+
+    <!-- External JS file -->
+    <script src="/03 SMB/SmartMessageBox.js"></script>
+</body>
+</html>
